@@ -33,6 +33,18 @@ body {
 	overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+	width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+	background-color: #222;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #AF8D4F;
+}
+
 button {
 	outline: none;
 }
@@ -394,7 +406,7 @@ footer {
 	font-weight: bold;
 	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
-	margin-top: 10px;
+	margin-top: 15px;
 	background-color: #AF8D4F;
 	border: none;
 	transition: background-color .2s linear;
@@ -407,6 +419,7 @@ footer {
 
 .footer-title {
 	margin-bottom: 20px;
+	text-transform: uppercase;
 }
 
 .fa-map-marker, .fa-phone, .fa-envelope {
