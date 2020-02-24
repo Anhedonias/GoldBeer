@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GoldBeer</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-top">
+				<div class="social">
+					<span class="social__text">Follow us:</span>
+					<a href="#" class="social__link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="#" class="social__link"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#" class="social__link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#" class="social__link"><i class="fa fa-vk" aria-hidden="true"></i></a>
+				</div>
+				<span class="phone"><a href="tel:+49078-039-23-11">+49078-039-23-11</a></span>
+			</div>
+		</div>
+		<div class="main-header">
+				<div class="container">
+					<div class="header__inner">
+						<a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+						<nav class="menu">
+							<a href="#" class="menu__link">Home</a>
+							<a href="#" class="menu__link">About</a>
+							<a href="#" class="menu__link">Menu</a>
+							<a href="#" class="menu__link">Galerry</a>
+							<a href="#" class="menu__link">Contact</a>
+						</nav>
+					</div>
+				</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="hero">
+			<div class="container">
+				<h1 class="hero-title">Discover brands<br>enjoy unique tastes</h1>
+			</div>
+		</section>
+		<section class="booking">
+			<div class="container">
+				<form action="#" class="booking__form">
+					<select name="people" id="people">
+						<option value="#">1 Person</option>
+						<option value="#">2 People</option>
+						<option value="#">3 People</option>
+						<option value="#">4 People</option>
+						<option value="#">5 People</option>
+						<option value="#">6 People</option>
+						<option value="#">7 People</option>
+					</select>
+					<label for="date">for</label>
+					<input id="date" type="date" value="">
+					<label for="time">as</label>
+					<select name="time" id="time">
+						<option value="#">9:00 am</option>
+						<option value="#">9:30 am</option>
+						<option value="#">10:00 am</option>
+						<option value="#">10:30 am</option>
+						<option value="#">11:00 am</option>
+						<option value="#">11:30 am</option>
+						<option value="#">12:00 am</option>
+						<option value="#">12:30 am</option>
+						<option value="#">1:00 pm</option>
+						<option value="#">1:30 pm</option>
+						<option value="#">2:00 pm</option>
+						<option value="#">2:30 pm</option>
+						<option value="#">3:00 pm</option>
+						<option value="#">3:30 pm</option>
+						<option value="#">4:00 pm</option>
+						<option value="#">4:30 pm</option>
+						<option value="#">5:00 pm</option>
+						<option value="#">5:30 pm</option>
+						<option value="#">6:00 pm</option>
+						<option value="#">6:30 pm</option>
+						<option value="#">7:00 pm</option>
+					</select>
+					<button class="btn__form">book a table</button>
+				</form>
+			</div>
+		</section>
+		<section class="section about">
+			<div class="container">
+				<div class="about__inner">
+					<div class="text-left">
+						<h2 class="section-title about__title">About</h2>
+						<p class="desc">Pub was envisioned, designed, stocked, and staffed with one mission in mind: to bring you great beer. What is great beer? It’s a beer made with care and pride. It might be a local beer or one from across the globe. It could be your usual pint, or a beer that you had no idea existed. Every once in a while, it’s a beer you never would have ordered but for the fact that your server or bartender suggested it.</p>
+						<p class="desc">We are attentive to the freshness of our beer; bottle dates are checked upon arrival to ensure that we aren’t putting stale beer on the shelves. The main spoilers of beer are heat and light; from the beer’s entry until it leaves, all of the beer is kept cold to maintain freshness, and our cooler doors are lit with LED lighting.</p>
+						<p class="desc">We believe that beer tastes best out of its intended glass; we use half-liter glasses, Belgian tulips and goblets, true Hefeweizen glasses, and other style-specific vessels to ensure an authentic and enjoyable beer experience.</p>
+					</div>
+					<div class="image-right">
+						<img src="img/about.png" alt="pub">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section menu">
+			<div class="container">
+				<h2 class="section-title menu__title">Menu</h2>
+				<div class="menu__wrapper">
+					<div class="menu__sidebar">
+						<button class="sidebar__tab menu--active" data-for-tab="1">Appetizers</button>
+						<button class="sidebar__tab" data-for-tab="2">Soups and Salads</button>
+						<button class="sidebar__tab" data-for-tab="3">Beer</button>
+						<button class="sidebar__tab" data-for-tab="4">Hard drinks</button>
+						<button class="sidebar__tab" data-for-tab="5">Soft drinks</button>
+					</div>
+					<div class="menu__content content--active" data-tab="1">
+						<div class="menu-list">
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Mushroom Fries</h4>
+									<span class="menu__price">$8.00</span>
+								</div>
+								<p class="menu__desc">Breaded portabella mushroom, Calabrian chili aioli, parmesan</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Fries Pickless</h4>
+									<span class="menu__price">$6.00</span>
+								</div>
+								<p class="menu__desc">Hand-breaded pickles, sriracha aioli</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Chorizo Nachos</h4>
+									<span class="menu__price">$11.00</span>
+								</div>
+								<p class="menu__desc">Spiced ground chorizo, tortilla chips, shredded lettuce</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Kettle chips</h4>
+									<span class="menu__price">$2.50</span>
+								</div>
+								<p class="menu__desc">House-made, fresh-cut potato chips, malt vinegar</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Bacon Fat Popcorn</h4>
+									<span class="menu__price">$7.00</span>
+								</div>
+								<p class="menu__desc">Bacon, crispy sage, parmesan</p>
+							</div>
+						</div>
+					</div>
+					<!-- Appetizers -->
+					<div class="menu__content content--active" data-tab="2">
+						<div class="menu-list">
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Roasted Beet</h4>
+									<span class="menu__price">$10.00</span>
+								</div>
+								<p class="menu__desc">Salt-roasted red and golden beet, granny smith apple, caramelized fennel, spinach, quinoa, habanero vinaigrette, mustard-toasted walnuts</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Side Salad</h4>
+									<span class="menu__price">$4.00</span>
+								</div>
+								<p class="menu__desc">Mixed greens tossed in house vinaigrette and topped with carrots & daikon radish</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Caesar</h4>
+									<span class="menu__price">$10.50</span>
+								</div>
+								<p class="menu__desc">Chopped hearts of romaine, Caesar dressing, Pecorino Romano, croutons</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Victory Greens</h4>
+									<span class="menu__price">$8.00</span>
+								</div>
+								<p class="menu__desc">Bell peppers, cucumbers, carrots, red onions, creamy toasted sesame dressing</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Beer Cheese Soup</h4>
+									<span class="menu__price">$6.00</span>
+								</div>
+								<p class="menu__desc">Session Black Lager, flavorful combination of sharp cheddar and pepperjack cheese</p>
+							</div>
+						</div>
+					</div>
+					<!-- Soups and Salads -->
+					<div class="menu__content content--active" data-tab="3">
+						<div class="menu-list">
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Indian Brown Ale</h4>
+									<span class="menu__price">$4.25</span>
+								</div>
+								<p class="menu__desc">The beer has characteristics of each style that inspired it: the color of an American Brown, the caramel notes of a Scotch Ale, and the hopping regimen of an India Pale Ale.</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Midas Touch</h4>
+									<span class="menu__price">$4.25</span>
+								</div>
+								<p class="menu__desc">This sweet yet dry beer is made with ingredients found in 2,700-year-old drinking vessels from the tomb of King Midas.</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Romantic Chemistry</h4>
+									<span class="menu__price">$5.00</span>
+								</div>
+								<p class="menu__desc">Romantic Chemistry is brewed with an intermingling of mangoes, apricots and ginger, and then dry-hopped with three varieties of hops to deliver a tropical fruit aroma and a hop-forward finish.</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">90 Minute IPA</h4>
+									<span class="menu__price">$5.50</span>
+								</div>
+								<p class="menu__desc">90 Minute IPA has a great malt backbone that stands up to the extreme hopping rate.</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">60 Minute IPA</h4>
+									<span class="menu__price">$4.00</span>
+								</div>
+								<p class="menu__desc">60 Minute is brewed with a slew of great Northwest hops. A powerful but balanced East Coast IPA with a lot of citrusy hop character, it's the session beer for hardcore enthusiasts.</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Namaste</h4>
+									<span class="menu__price">$5.00</span>
+								</div>
+								<p class="menu__desc">A witbier bursting with good karma. Made with dried organic orange slices, fresh-cut lemongrass and a bit of coriander, this Belgian-style white beer is a great thirst quencher.</p>
+							</div>
+						</div>
+					</div>
+					<!-- beer -->
+					<div class="menu__content content--active" data-tab="4">
+						<div class="menu-list">
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Tequila Sampling Board</h4>
+									<span class="menu__price">$14.00</span>
+								</div>
+								<p class="menu__desc">Choose 4 different tequilas (4x100ml) to sample from the list below. Served with lime and orange wedges, cinnamon and salt to enhance the flavours</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Blanco tequilas</h4>
+									<span class="menu__price">$4.50</span>
+								</div>
+								<p class="menu__desc">250ml. The true essence of the agave; blanco tequilas are not aged in any oak so they represent the true flavour and spirit of the agave plant.</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Monte Verde Merlot</h4>
+									<span class="menu__price">$5.50</span>
+								</div>
+								<p class="menu__desc">250ml. Juicy red full of berries and plums. Each sip is like a liquid hug</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Absolut Blue Vodka</h4>
+									<span class="menu__price">$4.00</span>
+								</div>
+								<p class="menu__desc"></p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Bacardi Carta Blanca</h4>
+									<span class="menu__price">$3.50</span>
+								</div>
+								<p class="menu__desc"></p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Jameson Whisky</h4>
+									<span class="menu__price">$3.50</span>
+								</div>
+								<p class="menu__desc"></p>
+							</div>
+						</div>
+					</div>
+					<!-- hard drinks -->
+					<div class="menu__content content--active" data-tab="5">
+						<div class="menu-list">
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Pepsi, Diet Pepsi</h4>
+									<span class="menu__price">$2.50</span>
+								</div>
+								<p class="menu__desc">In a classic 330ml bottle</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">J2O</h4>
+									<span class="menu__price">$3.00</span>
+								</div>
+								<p class="menu__desc">275ml. Choose from Apple & Mango, Orange & Passion Fruit or Apple & Raspberry</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Lipton Ice Tea</h4>
+									<span class="menu__price">$2.50</span>
+								</div>
+								<p class="menu__desc">330ml</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Fruit Juice</h4>
+									<span class="menu__price">$2.20</span>
+								</div>
+								<p class="menu__desc">By the glass. Choose from: Orange, Pineapple, Cranberry, Apple</p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">English Breakfast Tea</h4>
+									<span class="menu__price">$3.00</span>
+								</div>
+								<p class="menu__desc"></p>
+							</div>
+							<div class="menu__item">
+								<div class="menu__title">
+									<h4 class="menu__name">Earl Grey Tea</h4>
+									<span class="menu__price">$3.00</span>
+								</div>
+								<p class="menu__desc"></p>
+							</div>
+						</div>
+					</div>
+					<!-- soft drinks -->
+				</div>
+			</div>
+		</section>
+		<section class="section gallery">
+			<div class="container">
+				<h2 class="section-title gallery__title">Galerry</h2>
+				<div class="gallery__inner">
+					<div class="gallery__item">
+						<img src="img/gallery/i-1.jpg" alt="image-1">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery/i-2.jpg" alt="image-2">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery/i-3.jpg" alt="image-3">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery/i-4.jpg" alt="image-4">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery/i-5.jpg" alt="image-5">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery/i-6.jpg" alt="image-6">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="info-block">
+					<h3 class="footer-title">Contact info</h3>
+					<span class="address"><i class="fa fa-map-marker" aria-hidden="true"></i>Raymond Boulevard 224, New York</span>
+					<span class="footer__phone"><i class="fa fa-phone" aria-hidden="true"></i>+49078-039-23-11</span>
+					<span class="mail"><i class="fa fa-envelope" aria-hidden="true"></i>info@themebusiness.com</span>
+				</div>
+				<div class="hours">
+					<div class="hours__inner">
+						<h3 class="footer-title">Opening Hours</h3>
+						<div class="hours__item">
+							<span class="day">Monday</span>
+							<span class="time">9:00 am – 7:00 pm</span>
+						</div>
+						<div class="hours__item">
+							<span class="day">Tuesday</span>
+							<span class="time">9:00 am – 7:00 pm</span>
+						</div>
+						<div class="hours__item">
+							<span class="day">Wednesday</span>
+							<span class="time">9:00 am – 7:00 pm</span>
+						</div>
+						<div class="hours__item">
+							<span class="day">Thursday</span>
+							<span class="time">9:00 am – 7:00 pm</span>
+						</div>
+						<div class="hours__item">
+							<span class="day">Friday</span>
+							<span class="time">9:00 am – 7:00 pm</span>
+						</div>
+						<div class="hours__item">
+							<span class="day">Saturday</span>
+							<span class="time">9:00 am – 4:00 pm</span>
+						</div>
+						<div class="hours__item">
+							<span class="day">Sunday</span>
+							<span class="time">CLOSED</span>
+						</div>
+					</div>
+				</div>
+				<form class="footer__form" action="#">
+					<h3 class="footer-title">Send us a message</h3>
+					<textarea class="footer__textarea"name="" required placeholder="Your Text" id="" cols="30" rows="10"></textarea>
+					<div class="text">
+						<input class="footer__input" required placeholder="Your name" type="text">
+						<input class="footer__input" required placeholder="Your email" type="email">
+					</div>
+					<button class="btn__footer">SEND</button>
+				</form>
+			</div>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+</body>
+</html>
