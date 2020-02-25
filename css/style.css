@@ -460,3 +460,155 @@ footer {
 .time {
 	margin: 0 0 10px 30px;
 }
+.burger {
+	display: none;
+	background: none;
+	border: none;
+	padding: 15px 5px;
+}
+
+.show {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: -10%;
+	top: 50px;
+	width: 120%;
+	background-color: #222;
+	padding: 20px;
+}
+
+.burger__item {
+	display: block;
+	width: 25px;
+	height: 3px;
+	background-color: #fff;
+	position: relative;
+}
+
+.burger__item:before {
+	content: "";
+	width: 20px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	bottom: -8px;
+	z-index: 1;
+	background-color: #fff;
+}
+
+.burger__item:after {
+	content: "";
+	width: 30px;
+	height: 100%;
+	position: absolute;
+	top: -8px;
+	right: 0;
+	z-index: 1;
+	background-color: #fff;
+}
+
+@media (max-width: 991px) {
+	.hero-title {
+		font-size: 60px;
+	}
+	input {
+		width: 20%;
+		padding: 13px 0 13px 14px;
+		font-size: 12px;
+	}
+	select {
+		width: 20%;
+		padding: 14px 0 14px 14px;
+		font-size: 12px;
+	}
+	.btn__form {
+		width: 30%;
+		padding: 14px 20px;
+	}
+	.text-left {
+		width: 100%;
+	}
+	.image-right {
+		display: none;
+	}
+	.gallery__inner {
+		justify-content: center;
+	}
+	.gallery__item:nth-child(4), .gallery__item:nth-child(5), .gallery__item:nth-child(6) {
+		margin-bottom: 15px;
+	}
+	footer {
+		background-color: #222;
+		height: 100%;
+		padding-bottom: 50px;
+	}
+	.footer__inner {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.hours {
+		margin-left: 50px;
+		margin-bottom: 50px;
+	}
+	.footer__form {
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.header-top {
+		display: none;
+	}
+	.menu__wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+	.gallery__inner {
+		justify-content: center;
+	}
+	.info-block {
+		width: 100%;
+	}
+	.hours {
+		width: 100%;
+		margin: 50px 0 50px 0;
+	}
+	.booking__form {
+		display: flex;
+		flex-direction: column;
+	}
+	input {
+		width: 100%;
+	}
+	select {
+		width: 100%;
+	}
+	.btn__form {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	label {
+		margin: 10px 0;
+	}
+	.hero-title {
+		font-size: 50px;
+		text-shadow: 2px 2px 0px #AF8D4F;
+	}
+	.burger {
+		display: block;
+	}
+	nav {
+		display: none;
+	}
+	.menu__link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	.menu__link:last-child {
+		margin-bottom: 0;
+	}
+}

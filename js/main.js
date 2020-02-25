@@ -32,3 +32,13 @@ document.addEventListener("DOMContentLoaded", () => {
 		tabsContainer.querySelector(".menu__sidebar .sidebar__tab").click();
 	});
 });
+
+
+let nav = $("#menu");
+let navToggle = $("#navToggle");
+
+navToggle.on("click", function(event) {
+	event.preventDefault();
+
+	nav.toggleClass("show");
+});
